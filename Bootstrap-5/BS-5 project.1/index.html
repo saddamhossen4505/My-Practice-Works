@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Title</title>
+    <!-- font-awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap css cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Custom css link -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <!-- navigation Part start here -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://i0.wp.com/sorobindu.com/wp-content/uploads/2022/03/Sorobindu-logo-1.png" style="width: 120px;" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#demo1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="demo1" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Video</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navigation Part ends here -->
+
+
+    <!-- carousel part start Here -->
+   <div class="carousel_section">
+       <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+           <div class="carousel-indicators">
+               <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
+               <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+               <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+           </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="8000">
+                    <div class="overlay-image" style="background-image: url(./img/carousel_1.jpg)"></div>
+                    <div class="container">
+                        <h2>This is the heading 01</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eveniet accusamus excepturi porro eos neque vitae, voluptatum obcaecati dolore! Dicta, explicabo laudantium. Placeat quaerat numquam sit id non aspernatur veniam.</p>
+                        <div class="btn btn-lg- btn-primary">Download</div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="800">
+                    <div class="overlay-image" style="background-image: url(./img/carousel_2.jpg)"></div>
+                    <div class="container">
+                        <h2>This is the heading 02</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eveniet accusamus excepturi porro eos neque vitae, voluptatum obcaecati dolore! Dicta, explicabo laudantium. Placeat quaerat numquam sit id non aspernatur veniam.</p>
+                        <div class="btn btn-lg- btn-primary">Download</div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="800">
+                    <div class="overlay-image" style="background-image: url(./img/carousel_3.jpg)"></div>
+                    <div class="container">
+                        <h2>This is the heading 03</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eveniet accusamus excepturi porro eos neque vitae, voluptatum obcaecati dolore! Dicta, explicabo laudantium. Placeat quaerat numquam sit id non aspernatur veniam.</p>
+                        <div class="btn btn-lg- btn-primary">Download</div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+       </div>
+   </div>
+    <!-- carousel part ends Here -->
+
+
+    <div class="container">
+
+        <!-- Service part start here -->
+        <div class="service_section mb-3 p-3 bg-light text-center">
+            <div class="title mb-4">
+                <h1 class="text-bolder">Services</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <i class=" fa-2x bg-info p-2 rounded-circle mb-3 fa-solid fa-handshake-angle"></i>
+                    <h2 class="text-uppercase">web-design</h2>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. In nihil nostrum nulla dolorum ea quas?</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <i class=" fa-2x bg-info p-2 rounded-circle mb-3 fa-solid fa-handshake-angle"></i>
+                    <h2 class="text-uppercase">web-design</h2>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. In nihil nostrum nulla dolorum ea quas?</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <i class=" fa-2x bg-info p-2 rounded-circle mb-3 fa-solid fa-handshake-angle"></i>
+                    <h2 class="text-uppercase">web-design</h2>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. In nihil nostrum nulla dolorum ea quas?</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <i class=" fa-2x bg-info p-2 rounded-circle mb-3 fa-solid fa-handshake-angle"></i>
+                    <h2 class="text-uppercase">web-design</h2>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. In nihil nostrum nulla dolorum ea quas?</p>
+                </div>
+            </div>
+        </div>
+        <!-- Service part ends here -->
+
+        <!-- About Me part Start here -->
+        <div class="aoutme_section bg-light p-3 mb-3 text-center">
+            <div class="title mb-4">
+                <h1 class="text-bolder">About-Me</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-5">
+                    <img class="rounded-circle mb-3" src="./img/Saddam.jpg" alt="">
+                </div>
+                <div class="col-lg-7 allinment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, impedit ut vitae aut delectus iure fugit in corporis. Quo porro molestias repudiandae sint! Numquam totam, fugiat consequatur vitae animi nostrum illo culpa maiores minima pariatur necessitatibus, placeat suscipit. Alias quidem totam deserunt corporis aut molestiae voluptatum perspiciatis atque facilis tenetur. Eaque maxime beatae eius tempore odit! Aliquid, odio maxime delectus, sequi perferendis necessitatibus beatae, obcaecati qui sint doloribus vitae quia 
+                        
+                    <!-- collapse part start here -->
+                    <a data-bs-toggle="collapse" data-bs-target="#demo1" href="#">Learn_More</a></p>
+
+                    <div id="demo1" class="collapse">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sequi non vitae aspernatur quo alias unde aperiam odio veniam similique assumenda dolorum quam quibusdam odit autem incidunt eligendi dolores error, deleniti molestias exercitationem eius accusamus. Aspernatur facere eaque modi asperiores error odio totam! Similique minus beatae, ea molestiae inventore porro aut facilis ratione voluptate non blanditiis doloremque ullam quo sunt commodi expedita officia earum reprehenderit voluptas impedit magnam. Quis, velit.</p>
+                    </div>
+                    <!-- collapse part ends here -->
+
+                    <!-- alert part ends here -->
+                    <div class="alert alert-info alert-dismissible">
+                        <button class="btn-close" data-bs-dismiss="alert" type="button"></button>
+                        <span>Info!</span> This is an information messege for you.
+                    </div>
+                    <div class="alert alert-success alert-dismissible">
+                        <button class="btn-close" data-bs-dismiss="alert" type="button"></button>
+                        <span>Wellcome!</span> Hi friend's wellcome for visit my site.
+                    </div>
+                    <div class="alert alert-dismissible alert-warning">
+                        <button class="btn-close" type="button" data-bs-dismiss="alert"></button>
+                        <span>Warnning!</span> Do you want to visit my site?
+                    </div>
+                    <!-- alert part ends here -->
+
+                    <!-- button part start here -->
+                    <div class="btn-group">
+                        <button class="btn btn-outline-primary">Click-Here</button>
+                        <button class="btn btn-outline-primary">Click-Here</button>
+                    </div>
+                    <!-- button part ends here -->
+                </div>
+            </div>
+        </div>
+        <!-- About Me part Start here -->
+
+        <!-- Tutorial part start here -->
+        <div class="card_section bg-light p-3 mb-3">
+            <div class="title text-center mb-4">
+                <h1 class="text-bolder bg-dark text-white p-2">Tutorials</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card bg-secondary text-white text-center card_a">
+                        <img src="./img/cardimg.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title mb-2">HSC-ICT</h4>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum eos voluptatem possimus fugiat facilis. Tenetur ab similique autem accusamus velit.</p>
+                            <a class="card-link stretched-link" href="#">Visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card bg-dark text-white text-center card_a">
+                        <img src="./img/cardimg.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title mb-2">HSC-ICT</h4>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum eos voluptatem possimus fugiat facilis. Tenetur ab similique autem accusamus velit.</p>
+                            <a class="card-link stretched-link" href="#">Visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card bg-primary text-white text-center card_a">
+                        <img src="./img/cardimg.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title mb-2">HSC-ICT</h4>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum eos voluptatem possimus fugiat facilis. Tenetur ab similique autem accusamus velit.</p>
+                            <a class="card-link stretched-link" href="#">Visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card bg-info text-white text-center card_a">
+                        <img src="./img/cardimg.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title mb-2">HSC-ICT</h4>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum eos voluptatem possimus fugiat facilis. Tenetur ab similique autem accusamus velit.</p>
+                            <a class="card-link stretched-link" href="#">Visit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- Tutorial part ends here -->
+
+        <!-- Toggleable dynamic tab part start here -->
+        <div class="other_section bg-light mb-3 p-3">
+            <ul class="nav nav-tabs">
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#edu">Education</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#skill">Skill</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#hobby">Hobby</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#bus">Business</a></li>
+            </ul>
+            <div class="tab-content">
+                <div id="edu" class="tab-pane active">
+                    <p class="mt-3">1. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est et officia vitae tenetur, odio nemo! Ipsam nulla dolorum quaerat reprehenderit deserunt sed nisi dolorem, cumque nobis nostrum? Totam, nulla repudiandae.</p>
+                </div>
+                <div id="skill" class="tab-pane fade">
+                    <p class="mt-3">2. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est et officia vitae tenetur, odio nemo! Ipsam nulla dolorum quaerat reprehenderit deserunt sed nisi dolorem, cumque nobis nostrum? Totam, nulla repudiandae.</p>
+                </div>
+                <div id="hobby" class="tab-pane fade">
+                    <p class="mt-3">3. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est et officia vitae tenetur, odio nemo! Ipsam nulla dolorum quaerat reprehenderit deserunt sed nisi dolorem, cumque nobis nostrum? Totam, nulla repudiandae.</p>
+                </div>
+                <div id="bus" class="tab-pane fade">
+                    <p class="mt-3">4. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est et officia vitae tenetur, odio nemo! Ipsam nulla dolorum quaerat reprehenderit deserunt sed nisi dolorem, cumque nobis nostrum? Totam, nulla repudiandae.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Toggleable dynamic tab part ends here -->
+
+        <!-- Customer review part start -->
+        <div class="cutomer_review_section bg-light mb-3 p-3">
+            <div class="title mb-4 text-center">
+                <h2 class="text-bolder">Customer-Review</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <blockquote class="blockquote text-center">
+                        <i class=" fa-2x bg-primary mb-2 p-2 rounded-circle fa-brands fa-twitter"></i>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, molestias.</p>
+                        <div class="blockquote-footer">
+                            Saddam Hossen <cite>Youtube</cite>
+                        </div>
+                    </blockquote>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <blockquote class="blockquote text-center">
+                        <i class=" fa-2x bg-primary mb-2 p-2 rounded-circle fa-brands fa-twitter"></i>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, molestias.</p>
+                        <div class="blockquote-footer">
+                            Saddam Hossen <cite>Youtube</cite>
+                        </div>
+                    </blockquote>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <blockquote class="blockquote text-center">
+                        <i class=" fa-2x bg-primary mb-2 p-2 rounded-circle fa-brands fa-twitter"></i>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, molestias.</p>
+                        <div class="blockquote-footer">
+                            Saddam Hossen <cite>Youtube</cite>
+                        </div>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <!-- Customer review ends start -->
+
+        <!-- media object part start here -->
+        <div class="media_object_section bg-light p-3 mb-3">
+            <div class="d-flex p-3 border">
+                <div class="media_img align-self-center">
+                    <img class="rounded-circle" src="./img/Saddam.jpg" alt="Saddam hossen" style="width: 170px; height: 170px;">
+                </div>
+                <div class="media_header ms-4">
+                    <h3>I Love Bangladesh</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ab laboriosam ex unde ipsam delectus, doloremque ducimus. Cupiditate, porro aliquid. Laudantium quam vel suscipit consequuntur nisi, hic, facere aperiam nesciunt harum beatae consequatur a sed? Tempora velit repellat quod explicabo optio quo repellendus asperiores quibusdam omnis quos? Cum expedita in temporibus, deleniti ad, ratione eius porro sequi corporis recusandae dolores earum nam. Veniam harum sit, magnam ipsam sint ducimus maiores nemo, iure culpa neque quibusdam, eligendi hic sapiente saepe facilis!</p>
+                </div>
+            </div>
+        </div>
+        <!-- media object part ends here -->
+
+        <!-- list group start here -->
+        <div class="list_group_section bg-light mb-3 p-3">
+            <ul class="list-group text-center">
+                <li class="list-group-item bg-info">Saddam</li>
+                <li class="list-group-item bg-warning">Saddam</li>
+                <li class="list-group-item bg-success">Saddam</li>
+                <li class="list-group-item bg-primary">Saddam</li>
+                <li class="list-group-item bg-success">Saddam</li>
+            </ul>
+        </div>
+        <!-- list group ends here -->
+
+        <!-- Table part start Here -->
+        <div class="table_section bg-light p-3 mb-3">
+            <div class="title mb-4 text-center">
+                <h2 class="inline bg-secondary p-2 text-white">Table For Student</h2>
+            </div>
+            <table class="table table-bordered table-hover table-info text-center">
+                <thead>
+                    <tr class="table-primary text-dark">
+                        <th>Name</th>
+                        <th>Father Name</th>
+                        <th>Mother Name</th>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Saddam</td>
+                        <td>Saydar</td>
+                        <td>Nazima</td>
+                        <td>Bangladesh</td>
+                    </tr><tr>
+                        <td>Saddam</td>
+                        <td class="table-warning">Saydar</td>
+                        <td>Nazima</td>
+                        <td>Bangladesh</td>
+                    </tr>
+                    <tr>
+                        <td>Saddam</td>
+                        <td>Saydar</td>
+                        <td>Nazima</td>
+                        <td>Bangladesh</td>
+                    </tr>
+                    <tr>
+                        <td>Saddam</td>
+                        <td>Saydar</td>
+                        <td>Nazima</td>
+                        <td>Bangladesh</td>
+                    </tr>
+                    <tr>
+                        <td>Saddam</td>
+                        <td>Saydar</td>
+                        <td>Nazima</td>
+                        <td>Bangladesh</td>
+                    </tr>
+                    <tr>
+                        <td>Saddam</td>
+                        <td>Saydar</td>
+                        <td>Nazima</td>
+                        <td>Bangladesh</td>
+                    </tr>
+                    <tr>
+                        <td>Saddam</td>
+                        <td>Saydar</td>
+                        <td>Nazima</td>
+                        <td>Bangladesh</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <!-- Table part start Here -->
+
+       <!-- form part start Here -->
+       <div class="form_section">
+           <div class="row">
+               <div class="col-lg-6 mb-4">
+                    <div class="title text-secondary text-center mb-4">
+                        <h2>Input Your Data</h2>
+                    </div>
+        
+                    <form class="p-3 bg-info" action="">
+                        <div class="mb-3">
+                            <label class="form-label" for="first_name">Fisrt-Name:</label>
+                            <input class="form-control" type="text" name="first_name" id="first_name">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="last_name">Last-Name:</label>
+                            <input class="form-control" type="text" neme="last_name" id="last_name">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="father_name">Father-Name:</label>
+                            <input class="form-control" type="text" id="father_name" name="father_name">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="mother_name">Mother-Name:</label>
+                            <input type="text" id="mother_name" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="email">Email</label>
+                            <input class="form-control" type="email" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="number">Phone-Number</label>
+                            <input type="number" id="number" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <div><label class="form-label" for="gender">Gender:</label></div>
+                            <div class="form-check-inline">
+                                <input class="form-check-input" type="radio" id="male" name="gender">
+                                <label class="form-label" for="male">Male</label>
+                            </div>
+                            <div class="form-check-inline">
+                                <input class="form-check-input" type="radio" id="female" name="gender">
+                                <label class="form-label" for="female">Female</label>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="tnc">
+                            <label class="form-label" for="tnc">Accepts Terms And Conditions</label>
+                        </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="select">Country:</label>
+                            <select class="form-select-inline" name="country" id="select">
+                                <option value="ban">Bangladesh</option>
+                                <option value="ind">India</option>
+                                <option value="pak">Pakistan</option>
+                                <option value="mal">Maldip</option>
+                                <option value="vut">Vutan</option>
+                                <option value="nep">Nepal</option>
+                                <option value="sre">Srelankha</option>
+                                <option value="usa" selected>USA</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="password">Password</label>
+                            <input type="password" id="password" class="form-control-inline">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="color">Favorite-color</label>
+                            <input type="color" id="color" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="birthdate">Birth-Date:</label>
+                            <input class="form-control" type="date" id="birthdate">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="age">Your-Age:</label>
+                            <input type="number" id="age" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <button class="btn btn-info btn-inline">Submit</button>
+                            <input class="reset" type="reset" name="reset">
+                        </div>
+                    </form>
+               </div>
+               <div class="col-lg-6 mb-4">
+                <div class="title text-secondary text-center mb-4">
+                    <h2>Input Your Data</h2>
+                </div>
+    
+                <form class="p-3 bg-info" action="">
+                    <div class="mb-3">
+                        <label class="form-label" for="first_name">Fisrt-Name:</label>
+                        <input class="form-control" type="text" name="first_name" id="first_name">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="last_name">Last-Name:</label>
+                        <input class="form-control" type="text" neme="last_name" id="last_name">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="father_name">Father-Name:</label>
+                        <input class="form-control" type="text" id="father_name" name="father_name">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="mother_name">Mother-Name:</label>
+                        <input type="text" id="mother_name" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="email">Email</label>
+                        <input class="form-control" type="email" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="number">Phone-Number</label>
+                        <input type="number" id="number" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <div><label class="form-label" for="gender">Gender:</label></div>
+                        <div class="form-check-inline">
+                            <input class="form-check-input" type="radio" id="male" name="gender">
+                            <label class="form-label" for="male">Male</label>
+                        </div>
+                        <div class="form-check-inline">
+                            <input class="form-check-input" type="radio" id="female" name="gender">
+                            <label class="form-label" for="female">Female</label>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="tnc">
+                        <label class="form-label" for="tnc">Accepts Terms And Conditions</label>
+                    </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="select">Country:</label>
+                        <select class="form-select-inline" name="country" id="select">
+                            <option value="ban">Bangladesh</option>
+                            <option value="ind">India</option>
+                            <option value="pak">Pakistan</option>
+                            <option value="mal">Maldip</option>
+                            <option value="vut">Vutan</option>
+                            <option value="nep">Nepal</option>
+                            <option value="sre">Srelankha</option>
+                            <option value="usa" selected>USA</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="password">Password</label>
+                        <input type="password" id="password" class="form-control-inline">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="color">Favorite-color</label>
+                        <input type="color" id="color" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="birthdate">Birth-Date:</label>
+                        <input class="form-control" type="date" id="birthdate">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="age">Your-Age:</label>
+                        <input type="number" id="age" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <button class="btn btn-info btn-inline">Submit</button>
+                        <input class="reset" type="reset" name="reset">
+                    </div>
+                </form>
+           </div>
+           </div>
+       </div>
+       <!-- form part ends Here -->
+
+        <!-- page numbering part start here -->
+        <div class="page_number_section bg-light mb-3 p-3">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="#">Pre</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">6</a></li>
+                <li class="page-item"><a class="page-link" href="#">7</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </div>
+        <!-- page numbering part ends here -->
+
+    </div>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap js cdn link -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<!-- Custom JavaScript link -->
+<script src="./app.js"></script>
+</body>
+</html>

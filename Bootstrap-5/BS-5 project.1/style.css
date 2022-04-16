@@ -1,0 +1,41 @@
+.allinment{
+    text-align: justify;
+}
+.card_a a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.card_a:hover a{
+    background-color: antiquewhite;
+    color: black;
+    padding: 2px;
+}
+.media_header p{
+    text-align: justify;
+}
+
+/* carousel part style start here */
+.carousel-item{
+    height: 32rem;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+.carousel-item .container{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+.overlay-image{
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: .5;
+}
+/* carousel part style ends here */
